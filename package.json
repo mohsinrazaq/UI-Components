@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/mohsinrazaq/UI-Components/issues"
   },
-  "homepage": "https://github.com/mohsinrazaq/UI-Components#readme"
+  "homepage": "https://github.com/mohsinrazaq/UI-Components#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-cleancss": "^0.2.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-less": "^3.5.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "less-plugin-autoprefix": "^1.5.1",
+    "less-plugin-glob": "^2.0.1",
+    "npm-check-updates": "^2.14.0"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.0"
+  }
 }
