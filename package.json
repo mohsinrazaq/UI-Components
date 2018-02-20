@@ -1,0 +1,19 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "description": "ui components at skyimpel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohsinrazaq/UI-Components.git"
+  },
+  "author": "Mohsin Razzaq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohsinrazaq/UI-Components/issues"
+  },
+  "homepage": "https://github.com/mohsinrazaq/UI-Components#readme"
+}
