@@ -16,8 +16,8 @@ var lessDir = 'src/assets/less/';
 //Tasks: Minify and compile 
 
 gulp.task('html-minify',function(){
-    gulp.src('/src/*.html')
-        .pipe(htmlmin({collapsewhitespace:true}))
+    gulp.src('src/*.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(gulp.dest('dist'));
 });
 
@@ -34,13 +34,13 @@ gulp.task('less', function(){
             plugins: [autoprefix, require('less-plugin-glob')]
         }))
         .pipe(cleanCss())
-        .pipe(sourcemaps.write(/maps))
+        .pipe(sourcemaps.write('/maps'))
         .pipe(gulp.dest('dist/assets/css/'))
         .pipe(BrowserSync.stream());
 });
 
 
-//Tasks : Watc, Build and save
+//Tasks : Watch, Build and save
 
 gulp.task('serve', function(){
     BrowserSync.init({
